@@ -8,6 +8,7 @@ export function App() {
 
   return (
     <>
+      
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
@@ -16,6 +17,13 @@ export function App() {
           <img src={preactLogo} class="logo preact" alt="Preact logo" />
         </a>
       </div>
+
+      <p>Olá mundo cruel 123 </p>
+
+      <div>
+        <button class="myBtn">Botao de teste</button>
+      </div>
+
       <h1>Vite + Preact</h1>
       <div class="card">
         <button onClick={() => setCount((count) => count + 1)}>
