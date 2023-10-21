@@ -90,6 +90,8 @@ function App() {
           <UseDetails key={pessoa.id} nome={pessoa.nome} idade={pessoa.idade} profissao={pessoa.profissao} />
         ))
       }
+
+      {/**Olá agluma coisa de teste */}
     </>
   )
 }
