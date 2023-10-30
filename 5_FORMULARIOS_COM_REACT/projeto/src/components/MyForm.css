@@ -1,0 +1,36 @@
+.myPanel{
+    margin-left: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;    
+}
+
+.myForm label {
+    margin-bottom: 10px;
+}
+
+.myForm label input, .myForm label textarea {
+    width: 100%;
+}
+
+.myPanel .myForm .button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enviar, .btn-cancelar{
+    width: 100px;
+}
+
+.btn-retorno-sucesso {
+    background: linear-gradient(to bottom, #0074d9, #0056b3);
+    border: 2px solid #0056b3;
+    color: #011122;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
