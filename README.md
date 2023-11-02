@@ -10,3 +10,5 @@ React do Zero a Maestria (c/ hooks, router, API, Projetos)
       npm install
       npm run dev
  2.d) npm run dev -- --host 0.0.0.0 --port 8001
+
+ 4). O projeto 6 está incompleto
