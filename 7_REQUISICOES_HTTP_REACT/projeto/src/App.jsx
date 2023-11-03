@@ -50,6 +50,35 @@ function App() {
     setPrice("");
   }
 
+  const handleDelete = async (productId) => {
+
+    try {
+
+      const apiUrl = `${url}/${productId}`;
+
+      const res = await fetch(apiUrl, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      
+      if (res.ok) {
+        alert("Deletado com sucesso");
+        setProducts((prevProducts) =>
+          prevProducts.filter((product) => product.id !== productId)
+        );
+      } else {
+        alert("Falha ao deletar");
+      }      
+
+    } catch (error) {
+      //console.error("Error:", error);
+      alert("Falha ao deletar");
+    }
+
+  }
+
 
 
   return (
@@ -85,7 +114,7 @@ function App() {
                   <td><span className='spNameProduct'>{product.name}</span></td>
                   <td><span className='spPriceProduct'>{product.price}</span></td>
                   <td><a href={`localhost/edita/${product.id}`} > <img src={EditIcon} alt="editIcon" width='20px' height='20px'/> </a> </td>
-                  <td><a href={`localhost/exclui/${product.id}`} > <img src={DeleteIcon} alt="editIcon" width='20px' height='20px'/> </a> </td>             
+                  <td> <img src={DeleteIcon} alt="editIcon" width='20px' height='20px' onClick={() => handleDelete(product.id)}/> </td>             
                 </tr>                  
                 ))
               }  

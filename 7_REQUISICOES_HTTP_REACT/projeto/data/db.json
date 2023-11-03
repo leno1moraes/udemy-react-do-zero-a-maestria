@@ -1,33 +1,28 @@
 {
   "products": [
     {
-      "id": 1,
       "name": "Camisa",
-      "price": 59.9
+      "price": "45",
+      "id": 2
     },
     {
-      "id": 2,
-      "name": "Calça vermelha",
-      "price": 90
+      "name": "Sapato",
+      "price": "120",
+      "id": 3
     },
     {
-      "id": 3,
-      "name": "Boné aba reta",
-      "price": 29.9
-    },
-    {
-      "name": "Teste",
-      "price": "1",
+      "name": "Relógio",
+      "price": "12",
       "id": 4
     },
     {
-      "name": "Teste 2",
-      "price": "3",
+      "name": "Arroz",
+      "price": "20",
       "id": 5
     },
     {
-      "name": "Teste 3",
-      "price": "5",
+      "name": "Poltrona",
+      "price": "600",
       "id": 6
     }
   ]
