@@ -11,4 +11,4 @@ React do Zero a Maestria (c/ hooks, router, API, Projetos)
         npm run dev
   2.4 - npm run dev -- --host 0.0.0.0 --port 8001
 
-3). O projeto 6 está incompleto
+3 - O projeto 6 está incompleto
