@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sapato",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Boné",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Cinto",
+      "price": 29.9
+    },
+    {
+      "id": 4,
+      "name": "Gravata",
+      "price": 50
+    },
+    {
+      "id": 5,
+      "name": "Bermuda",
+      "price": 30
+    },
+    {
+      "id": 6,
+      "name": "Óculos",
+      "price": 120
+    }
+  ]
+}
