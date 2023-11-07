@@ -8,6 +8,9 @@ const url = "http://0.0.0.0:8001/products";
 import EditIcon from '../../src/assets/icons/edit2.png';
 import DeleteIcon from '../../src/assets/icons/delete1.png';
 
+
+import { Link } from 'react-router-dom';
+
 const Home = () => {
 
     const [products, setProducts] = useState([]);
@@ -102,7 +105,7 @@ const Home = () => {
               <tr>
                 <th>Produto</th>
                 <th>Valor</th>
-                <th colSpan='2'>Ação</th>              
+                <th colSpan='3'>Ação</th>              
               </tr>
             </thead> 
             <tbody>
@@ -111,7 +114,8 @@ const Home = () => {
                 <tr key={product.id}>
                   <td><span className='spNameProduct'>{product.name}</span></td>
                   <td><span className='spPriceProduct'>{product.price}</span></td>
-                  <td><a href={`localhost/edita/${product.id}`} > <img src={EditIcon} alt="editIcon" width='20px' height='20px'/> </a> </td>
+                  <td> <Link to={`/products/${product.id}`}>Detalhes</Link></td>
+                  <td><a href='#'> <img src={EditIcon} alt="editIcon" width='20px' height='20px'/> </a> </td>
                   <td> <img src={DeleteIcon} alt="editIcon" width='20px' height='20px' onClick={() => handleDelete(product.id)}/> </td>             
                 </tr>                  
                 ))
