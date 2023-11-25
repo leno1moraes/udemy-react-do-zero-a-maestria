@@ -10,13 +10,17 @@ React do Zero a Maestria (c/ hooks, router, API, Projetos)
 
   2.2 - npm create vite@latest
 
-  2.3 - cd hello-word
+  2.3 - sequência de comandos
+  
+        cd hello-word
 
         npm install
 
         npm run dev
 
-  2.4 - npm run dev -- --host 0.0.0.0 --port 8001
+  2.4 - Para especificar uma porta
+  
+        npm run dev -- --host 0.0.0.0 --port 8001
 
 
 3 - O projeto 6 está incompleto
