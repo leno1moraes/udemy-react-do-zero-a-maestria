@@ -26,3 +26,20 @@ React do Zero a Maestria (c/ hooks, router, API, Projetos)
 
 
 5 - O projeto 8 falta a funcionalidade de editar
+
+
+--------------------------------------------------------------
+
+
+Instalar pacotes adicionais
+
+
+#1 Intalar rotas
+
+        npm install react-router-dom
+
+
+#2 Instalar server json
+
+        npm install -g json-server
+
