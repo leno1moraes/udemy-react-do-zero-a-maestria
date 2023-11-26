@@ -17,7 +17,10 @@ chmod +x /usr/local/bin/docker-compose
 # Install Node.js 14
 #curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 # Install Node.js 16 using NodeSource
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+#curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+# Install Node.js 18 using NodeSource
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
 
 apt-get install -y nodejs
 apt-get install -y npm
