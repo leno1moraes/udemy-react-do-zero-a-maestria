@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react'
 import './Pagina3.css'
+import { useContext } from 'react';
+import { CounterContext } from '../context/CounterContext';
 
 const Pagina3 = () => {
+  const { counter } = useContext(CounterContext);
+
   useEffect(() => {
     // Add the class to the body when the component mounts
     document.body.classList.add('bg-pagina-3');
@@ -14,8 +18,9 @@ const Pagina3 = () => {
 
   return (
     <>
-        <div>
-            <p><h1>Página 3</h1></p>
+        <div className='bg-body-page'>
+            <h1>Página 3</h1>
+            <p>Valor do contador: {counter}</p>
         </div>
     </>
   )

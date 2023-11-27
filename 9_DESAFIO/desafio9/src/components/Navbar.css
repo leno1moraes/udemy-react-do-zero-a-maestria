@@ -9,14 +9,15 @@ nav a {
     padding: 5px;
     text-decoration: none;
     color: #ccc;
-    background-color: #151515;
+    background-color: #000;
 }
 
 nav a:hover {
-    color: #ccc;
+    background-color: #ccc;
+    color: #000;
 }
 
-.active {
-    background-color: #000;
-    color: #fff;
+nav a:focus {
+    background-color: #fff;
+    color: #000;
 }
