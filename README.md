@@ -47,3 +47,6 @@ Instalar pacotes adicionais
 
         npm install -g json-server
 
+#3 Instalar Firebase
+
+        npm i firebase
