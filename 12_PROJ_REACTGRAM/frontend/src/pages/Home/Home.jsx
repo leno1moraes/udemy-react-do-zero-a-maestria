@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <div id="home">
-      {photos &&
+      {Array.isArray(photos) &&
         photos.map((photo) => (
           <div key={photo._id}>
             <PhotoItem photo={photo} />

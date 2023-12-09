@@ -50,3 +50,30 @@ Instalar pacotes adicionais
 #3 Instalar Firebase
 
         npm i firebase
+
+
+--------------------------------------------------------------
+
+
+Implementando o ReactGram (POSSUI ERROS)
+
+Na pasta backend
+        01. executar: npm init -y
+        02. executar: npm i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose multer
+        03. executar: npm i --save-dev nodemon
+        04. criar arquivo app.js
+        05. executar: npm run server
+        06. criar o banco mongo: pesquisar no google Mongo Atlas Database (serviço do google pago ou gratuíto)
+                06.1: usuário e senha
+                        06.1.a. lenomoraes12
+                        06.1.b. U8u0YQs8j40huLtd	
+                06.2: string de conexão
+                        06.2.a. mongodb+srv://lenomoraes12:<password>@cluster0.xc6cdvu.mongodb.net/?retryWrites=true&w=majority
+        07. implementar o backend
+        08. testar tudo com comando: npm run server
+        09. criar o projeto frontend
+        10. testar se o projeto abre
+        11. executar comando: npm i react-icons react-router-dom @reduxjs/toolkit
+        12. executar comando: npm i react-redux
+        13. executar comando: npm install web-vitals
+
