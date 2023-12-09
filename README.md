@@ -61,14 +61,17 @@ Na pasta backend
 
 
 01. executar: 
+
         npm init -y
 
 
 02. executar: 
+
         npm i bcryptjs cors dotenv express express-validator jsonwebtoken mongoose multer
 
 
 03. executar: 
+
         npm i --save-dev nodemon
 
 
@@ -76,6 +79,7 @@ Na pasta backend
 
 
 05. executar: 
+
         npm run server
 
 
@@ -102,12 +106,15 @@ Na pasta backend
 
 
 11. executar comando: 
+
         npm i react-icons react-router-dom @reduxjs/toolkit
 
 
 12. executar comando: 
+
         npm i react-redux
 
 
-13. executar comando: 
+13. executar comando:
+
         npm install web-vitals
